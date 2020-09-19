@@ -101,8 +101,6 @@ body {
 
 .add {
     padding: 14px;
-    border-bottom: 1px solid #e7e7e7;
-    background-color: #f7f7f7;
 }
 
 .add__container {
@@ -186,13 +184,9 @@ h2 {
 .icome__title { color: lightgreen; }
 .expenses__title { color: #FF5252; }
 
-.item {
-    padding: 13px;
-}
+.item { padding: 13px; }
 
-.item__description {
-    float: left;
-}
+.item__description { float: left; }
 
 .item__value {
     float: left;
@@ -212,20 +206,14 @@ h2 {
 }
 
 .income .item__value,
-.income .item__delete--btn {
-    color: #28B9B5;
-}
+.income .item__delete--btn { color: #28B9B5; }
 
 .expenses .item__value,
 .expenses .item__percentage,
-.expenses .item__delete--btn {
-    color: #FF5049;
-}
+.expenses .item__delete--btn { color: #FF5049; }
 
 
-.item__delete {
-    float: left;
-}
+.item__delete { float: left; }
 
 .item__delete--btn {
     font-size: 22px;

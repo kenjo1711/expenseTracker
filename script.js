@@ -1,5 +1,5 @@
 let budgetController = (function(){
-  
+
   let Expense = function(id,description,value){
     this.id = id;
     this.description = description;
@@ -127,7 +127,7 @@ let budgetController = (function(){
 
 
 let UIController = (function(){
-  
+
   let DOMstrings = {
     inputType: ".add__type",
     inputDescription: ".add__description",
@@ -354,7 +354,8 @@ let controller = (function(budgetCtrl,UICtrl){
 
   return {
     init: function(){
-      console.log("Application has started");
+      console.log("If You're Reading This, Hi Developer! May you have a good life ~ Ken");
+      console.log("Found this cool function, just thought that I could use it. lol. ~ Ken Again")
       UICtrl.displayMonth();
       UICtrl.displayBudget({
         budget: 0,
